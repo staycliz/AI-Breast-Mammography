@@ -1,6 +1,8 @@
 # ARTIFICIAL INTELLIGENCE AND BREAST CANCER SCREENING.
 
 Can mammography help detect and prevent breast cancer better than the doctors and old technologies?
+![page-header-services-womens-health-breast-health-2021](https://user-images.githubusercontent.com/95467893/152143534-c740d356-6838-4648-a8e1-a84d159ce542.jpg)
+
 
 
 ## Abstract.
