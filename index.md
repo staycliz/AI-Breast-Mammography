@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# ARTIFICIAL INTELLIGENCE AND BREAST CANCER SCREENING.
 
-You can use the [editor on GitHub](https://github.com/staycliz/staycliz.gitub.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Can mammography help detect and prevent breast cancer better than the doctors and old technologies?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Abstract.
+Breast cancer is the second leading cause of death in women, so accurate early detection can help reduce breast cancer mortality. Cancer is a disease in which cells in the body grow out of control. With the exception of skin cancer, breast cancer is the most common cancer in women in the United States. Although breast cancer deaths have declined over time, breast cancer remains the second leading cause of cancer-related death in females as a whole and the leading cause of cancer-related death in Hispanic females. Computer-aided detection allows radiologists to detect anomalies efficiently. Medical images are a source of information related to the detection and diagnosis of various diseases and abnormalities. Several modalities allow radiologists to examine the internal structure, and these modalities are of great interest in different types of research. The purpose of this study is to outline new applications of machine learning and deep learning techniques for breast cancer detection and classification, and to outline progress in this area. It first outlines different machine learning approaches and then outlines different deep learning techniques and specific architectures for breast cancer detection and classification. Finally, this review summarizes future trends and challenges in breast cancer classification and detection.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Introduction
+Breast cancer is the most common malignant tumor in women. According to 2017 epidemiological data, more than 50,000 women are diagnosed with breast cancer each year in Italy, and a total of more than 750,000 women survive the previous diagnosis. Disease freedom and overall survival depend primarily on molecular biology and stage of the disease. In particular, inflammatory breast cancer and metastatic diseases have a significant impact on them. Age, invasive cancer, axillary lymph node metastasis, tumor size, histological subtype, HER2, Ki67, estrogen and progesterone receptor expression, grading, lymphadenopathy, multifocal or multicentric, excisional stump , Tumor infiltrating lymphocytes, literature. Some statistical methods such as B. Multivariate regression. You can define the onset of the disease by knowing not only the meaning of each variable, but also how they relate to each other. Although this information helps to understand breast cancer behavior, it is still very difficult to predict the prognosis of each patient and to develop a specific treatment plan and follow-up. The interdisciplinary approach, Multigene Signature Panels (MSP) and Nottingham Prognostic Index (NPI) are three related examples. The interdisciplinary approach means that the treatment plan proposed for each patient is determined by combining the evaluations of various specialists such as breast surgeons, oncologists, radiation therapists, nuclear medicine specialists, and pathologists. To do. MSPs such as MammaPrint and Oncotype DX perform a cancer recurrence risk classification to identify cases that may actually benefit from chemotherapy, especially for non-metastatic and intraluminal cancers. The purpose of MSP is to reduce unnecessary treatment, avoid toxicity and minimize costs. Nevertheless, running these tests can be quite costly. Last but not least, NPI is a prognostic score based on the size of the tumor, the number of metastatic lymph nodes, and the grade of cancer that assesses survival among four different possibilities.
 
-```markdown
-Syntax highlighted code block
+## Discussion.
+The ML models developed in this study were able to estimate the prognosis of patients undergoing breast cancer surgery, by consolidating clinical and pathological information and using only available data. Additional costs are software licenses and the time required to build models. The purpose of applying ML models in the same institute in which the patients forming the training group are treated is to reduce the hidden variables. In doing so, bias resulting from the application of different surgical techniques or dosing regimens should be minimized.
 
-# Header 1
-## Header 2
-### Header 3
+Table 1: Systematic recurrence.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+All six ML models were able to predict all three outputs with 95.29% 96.86 accuracy. The specificity is from 0.97 to 0.99. However, the sensitivity of these algorithms is low (0, 350, 64). This may be due to a small sample population observed for short-term follow-up (32 months). If we look at the results of previous studies applying ML in medicine, we can see that these models created to predict infrequent events often underestimate minorities to be as precise as possible. This paper confirmed these considerations: very few subjects in the training set relapsed or died of disease. In addition, the most sensitive ML models in this study were those generated to predict the likelihood of system recidivism containing more positive observations in the training set than the others (Table 1.). Therefore, these ML models can improve if trained with a larger population sample and by extending the follow-up period, as we found breast cancer to recur not only in the short term but also in the long term. After a long time (up to 20 years since it was diagnosed). Therefore, it should be considered as a preliminary study and the algorithms are not yet ready for use in clinical practice.
 
-**Bold** and _Italic_ and `Code` text
+## Conclusion
+This study explores the use of six ML models to predict the prognosis of breast cancer patients treated at our institute. ANN and SVM are accurate and specific in assessing an individual's risk of disease recurrence or death. However, ANN and SVM did not demonstrate an appropriate level of sensitivity except when predicting systemic recurrence. An additional step to mitigate this shortcoming is to lengthen the population sample and follow-up period. A further goal may be to develop ML models that can be used in everyday clinical practice to estimate the prognosis of patients treated for breast cancer. Depending on the outcome, the clinician may be assisted in selecting appropriate adjuvant therapy and monitoring for frequency and duration. Predictive models can help, but should not replace doctor recommendations, based on a combination of scientific evidence and personal experience. Therefore, these techniques can be just a supplement and quite inexpensive.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/staycliz/staycliz.gitub.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## References.
+1. Fitzgibbons PL, Page DL, Weaver D, et al. Prognostic factors in breast cancer. College of American Pathologists Consensus Statement 1999. Arch Pathol Lab Med. 2000; 124(7): 966- 978.
+2. Kumar V, Abbas AK, Aster JC. Robbins Basic Pathology. 9th ed, chapter 18. Amsterdam, Netherlands: Elsevier/Saunders; 2013; 681- 714.
+4. Fitzgibbons PL, Page DL, Weaver D, et al. Prognostic factors in breast cancer. College of American Pathologists Consensus Statement 1999. Arch Pathol Lab Med. 2000; 124(7): 966- 978.
+5. Kontzoglou K, Palla V, Karaolanis G, et al. Correlation between Ki67 and breast cancer prognosis. Oncology. 2013; 84(4): 219- 225. 
